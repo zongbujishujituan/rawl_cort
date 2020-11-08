@@ -19,7 +19,7 @@
     )
   );
   background-image: -moz-radial-gradient(
-    rgba(0, 0, 0, 0.25) 25%,
+    rgba(0, 0, 0, 0.25) 50%,
     rgba(0, 0, 0, 0) 55%
   );
   background-image: -webkit-radial-gradient(
@@ -46,10 +46,10 @@
       content: '';
       display: block;
       position: absolute;
-      top: calc(-3.5rem - 1px);
+      top: calc(0rem - 1px);
       left: calc(50% - #{_size(border-width) * 1});
       width: _size(border-width);
-      height: calc(3.5rem + 1px);
+      height: calc(0rem - 1px);
       background: _palette(border);
     }
   }
@@ -71,7 +71,7 @@
 
     .icon {
       &:before {
-        font-size: 2rem;
+        font-size: 2.0rem;
       }
     }
   }
@@ -129,7 +129,7 @@
 
         button {
           display: block;
-          min-width: 7.5rem;
+          min-width: 10rem;
           height: 2.75rem;
           line-height: 2.75rem;
           padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
@@ -209,7 +209,7 @@
 
   @include breakpoint(small) {
     > * {
-      margin-top: 2rem;
+      margin-top: 20rem;
 
       &:before {
         top: calc(-2rem - 1px);
