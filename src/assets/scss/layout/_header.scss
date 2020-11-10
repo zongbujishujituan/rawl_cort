@@ -106,7 +106,7 @@
       text-transform: uppercase;
       letter-spacing: _font(letter-spacing);
       font-size: 0.8rem;
-      line-height: 2;
+      line-height: 1;
     }
   }
 
@@ -129,7 +129,7 @@
 
         button {
           display: block;
-          min-width: 10rem;
+          min-width: 13rem;
           height: 2.75rem;
           line-height: 2.75rem;
           padding: 0 1.25rem 0 (1.25rem + _font(letter-spacing));
@@ -209,11 +209,11 @@
 
   @include breakpoint(small) {
     > * {
-      margin-top: 20rem;
+      margin-top: 3rem;
 
       &:before {
-        top: calc(-2rem - 1px);
-        height: calc(2rem + 1px);
+        top: calc(0rem - 1px);
+        height: calc(0rem - 1px);
       }
     }
 
@@ -256,7 +256,7 @@
         max-width: 100%;
 
         li {
-          border-left: 0;
+          border-left: 20;
           border-top: solid _size(border-width) _palette(border);
 
           &:first-child {
@@ -267,7 +267,7 @@
             height: 3rem;
             line-height: 3rem;
             min-width: 0;
-            width: 100%;
+            width: 1000%;
           }
         }
       }

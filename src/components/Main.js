@@ -4,11 +4,15 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic07 from '../images/pic07.jpg'
-import pic11 from '../images/pic11.jpg'
 import pic12 from '../images/pic12.jpg'
 import pic14 from '../images/pic14.jpg'
 import pic15 from '../images/pic15.1.jpg'
 import pic16 from '../images/pic16.jpg'
+import pic18 from '../images/pic18.jpg'
+import pic19 from '../images/pic19.jpg'
+import pic20 from '../images/pic20.jpg'
+import pic21 from '../images/pic21.jpg'
+import pic22 from '../images/pic22.jpg'
 
 class Main extends React.Component {
   render() {
@@ -29,13 +33,13 @@ class Main extends React.Component {
       >
         <article
           id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          className={`${this.props.article === 'rcgym' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">rc gym</h2>
-          <h3>RAWL CORT GYM (ラウルコートジム)通称RC GYM</h3>
+          <h2 className="major">rc-gym</h2>
+          <h3>RAWL CORT GYM / ラウルコートジム通称RC GYM</h3>
           <span className="image main">
             <img src={pic15} alt="" />
           </span>
@@ -45,22 +49,15 @@ class Main extends React.Component {
            ・パーソナルトレーニング１〜３ヶ月コース<br />
            ・コンテスト出場コース/単発コース<br />
            ・ジムスペース月利用 １ヶ月 ¥11,000〜<br /><br />
+           <figure class="gazo-box"></figure>
+            <img src={pic19} alt="" width="560" height=""/>
+            <img src={pic20} alt="" width="560" height=""/><br /><br />
            個人利用・フリーのトレーナーさんの指導場所利用も可能。<br />
            他にも様々なプランがございます。<br />
-           お客様に最適なプランを提案いたしますので是非お気軽にご相談下さい。<br />
-           RC GYMオリジナルブランド<a href="#rawl_cort_url">RAWL CORT</a>もECサイトにて販売しております。</p>  
+           お客様に最適なプランを提案いたしますので是非お気軽にご相談下さい。<br /><br />
+           RC GYMオリジナルブランド<a href="https://rawlcort.fashionstore.jp/l">RAWL CORT</a>もECサイトにて販売しております。</p>  
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            
           </p>
           {close}
         </article>
@@ -75,9 +72,8 @@ class Main extends React.Component {
           <h2 className="major">Personal</h2>
           <h3>トレーナー紹介</h3>
           <span className="image main">
-            <img src={pic14} alt="" />
-            <img src={pic11} alt="" />
-          </span>
+            <img src={pic18} alt="" width="" height=""/>
+          </span> 
           <p>
           プロフィール<br /><br />
           ベタンコールト 光　日本とチリのハーフ<br /><br />
@@ -96,16 +92,14 @@ class Main extends React.Component {
           最新コンテスト出場結果<br />
           Summer Style Award 2020<br />
           Stylish Gyu Tall crass 1位<br />
-          Styilish Guy Overall 1位<br />
-          </p>
+          Styilish Guy Overall 1位<br /><br />
+          <a>料金表は以下の通りです。</a>
+
+          <img src={pic21} alt="" width="560" height=""/></p>
+
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+           その他、お客様に合った最適なプランをご提案しますので<br />
+           お気軽にご相談下さい。
           </p>
           {close}
         </article>
@@ -131,6 +125,9 @@ class Main extends React.Component {
             RC GYMは完全事前予約制のプライベート空間です。<br />
             その為周りの目も気にせず気軽に、そして待ち時間もなく効率よく<br />
             トレーニングできます！<br /><br />
+            <span className="image main">
+              <img src={pic22} alt="" />
+            </span>
             <h3>お忙しい方の時短トレーニングに最適です。</h3>
             ・ご友人・ご家族とトレーニングしたい方
             お１人ではもちろん、<br />
