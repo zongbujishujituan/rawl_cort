@@ -39,10 +39,11 @@ const Layout = ({ children, location }) => {
       render={data => (
         <>
           <Helmet
-            title="RAWLCORT"
+            title="RAWL CORT GYM"
             meta={[
-              { name: 'keywords', content: 'sample, something' },
-              { name: 'description', content: 'このページはGastbyサンプルです。'}
+              { name: 'keywords', content: 'RAWL CORT, RAWL CORT GYM, RCGYM, 越谷, 川口, 草加, 春日部,パーソナルトレーニング, パーソナルジム, レンタルジム, レンタルルーム, ' },
+              
+              { name: 'descriptio', content: 'RAWL CORT GYM 公式HP'}
             ]}
           >
           

@@ -1,24 +1,26 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import pic23 from '../images/pic23.png'
 
 const Header = props => (
   
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-hand-rock-o"></span>
+      <span>
+      <img src={pic23} alt="" class="logo" />
+      </span>
     </div>
     <div className="content">
       <div className="inner">
         <h1>RAWL CORT GYM</h1>
         <p>
           <h2>2020/11/1~ released</h2>
-          <br />
-          <h3>完全プライベートジムを自分だけの空間で</h3>
-          <a>マンツーマン個別トレーニング(1h ¥5,500~)</a><br />
-          <a>プライベートジム使い放題(month ¥11,000~)</a><br /><br />
+          <h3>完全プライベートジムを自分だけの空間に</h3>
+          <p><a>マンツーマン個別トレーニング(1h ¥5,500~)</a></p>
+          <p><a>プライベートジム使い放題(month ¥11,000~)</a></p>
           <h3>周りを気にせずボディメイク</h3>
-          ・<a>友人・家族とのトレーニング</a><br />
-          ・<a>パーソナル指導の場所として</a><br />
+          <p>・<a>友人・家族と一緒にトレーニング</a></p>
+          ・<a>パーソナル指導の場所として</a>
         </p>
       </div>
     </div>
@@ -27,10 +29,10 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('rcgym')
             }}
           >
-            rc gym
+            rc-gym
           </button>
         </li>
         <li>
@@ -39,7 +41,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            personal training
+            personal-training
           </button>
         </li>
         <li>
@@ -48,7 +50,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            private (rental)
+            private-rental
           </button>
         </li>
         <li>

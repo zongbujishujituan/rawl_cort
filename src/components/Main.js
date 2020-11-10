@@ -4,11 +4,15 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import pic07 from '../images/pic07.jpg'
-import pic11 from '../images/pic11.jpg'
 import pic12 from '../images/pic12.jpg'
 import pic14 from '../images/pic14.jpg'
 import pic15 from '../images/pic15.1.jpg'
 import pic16 from '../images/pic16.jpg'
+import pic18 from '../images/pic18.jpg'
+import pic19 from '../images/pic19.jpg'
+import pic20 from '../images/pic20.jpg'
+import pic21 from '../images/pic21.jpg'
+import pic22 from '../images/pic22.jpg'
 
 class Main extends React.Component {
   render() {
@@ -29,13 +33,13 @@ class Main extends React.Component {
       >
         <article
           id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          className={`${this.props.article === 'rcgym' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">rc gym</h2>
-          <h3>RAWL CORT GYM (ラウルコートジム)通称RC GYM</h3>
+          <h2 className="major">gym</h2>
+          <h3>RAWL CORT GYM / ラウルコートジム通称RC GYM</h3>
           <span className="image main">
             <img src={pic15} alt="" />
           </span>
@@ -45,22 +49,17 @@ class Main extends React.Component {
            ・パーソナルトレーニング１〜３ヶ月コース<br />
            ・コンテスト出場コース/単発コース<br />
            ・ジムスペース月利用 １ヶ月 ¥11,000〜<br /><br />
+           <figure class="gazo-box"></figure>
+            <span className="image main">
+              <img src={pic19} alt="" width="560" height=""/>
+              <img src={pic20} alt="" width="560" height=""/><br /><br />
+            </span>
            個人利用・フリーのトレーナーさんの指導場所利用も可能。<br />
            他にも様々なプランがございます。<br />
-           お客様に最適なプランを提案いたしますので是非お気軽にご相談下さい。<br />
-           RC GYMオリジナルブランド<a href="#rawl_cort_url">RAWL CORT</a>もECサイトにて販売しております。</p>  
+           お客様に最適なプランを提案いたしますので是非お気軽にご相談下さい。<br /><br />
+           RC GYMオリジナルブランド<a href="https://rawlcort.fashionstore.jp/l">RAWL CORT</a>もECサイトにて販売しております。</p>  
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            
           </p>
           {close}
         </article>
@@ -75,37 +74,35 @@ class Main extends React.Component {
           <h2 className="major">Personal</h2>
           <h3>トレーナー紹介</h3>
           <span className="image main">
-            <img src={pic14} alt="" />
-            <img src={pic11} alt="" />
-          </span>
+            <img src={pic18} alt="" width="" height=""/>
+          </span> 
           <p>
-          プロフィール<br /><br />
-          ベタンコールト 光　日本とチリのハーフ<br /><br />
-          私はトレーニングを始めるまで178cmと比較的高身長ながら、52kgしかない、
-          かなりの痩せ型でした。洋服をかっこよく着こなしたい、そんな気持ちから<br />
-          ボディーメイクを始め、冬(バルクアップ期間)は80kg超。夏(減量期間)は60kg<br />後半〜70kg
-          といったように食事や運動を上手に組み合わせ無理なく、体重・体型をコントロールできるようになり
-          2020年に開催された身体の美しさを競うコンテスト<a>SMMER STYLE AWARD 2020</a>では
+          プロフィール</p>
+          <p>ベタンコールト 光　日本とチリのハーフ</p>
+          <p>私はトレーニングを始めるまで178cmと比較的高身長ながら、52kgしかない、
+          かなりの痩せ型でした。</p>
+          <p>洋服をかっこよく着こなしたい、そんな気持ちから
+          ボディーメイクを始め、冬(バルクアップ期間)は80kg超。夏(減量期間)は60kg後半〜70kg
+          といったように食事や運動を組み合わせ無理なく、体重・体型をコントロール
+          できるようになりました。</p>
+          <p>2020年に開催された身体の美しさを競うコンテスト<a>SMMER STYLE AWARD 2020</a>では
           <a>オーバーオールを含め二冠</a>を勝ち取ることができました。
           ただ痩せるだけではなくしっかりと筋肉を残しつつ
-          女性は綺麗なくびれ、ヒップアップ。男性はたくましく。<br />
-          マンツーマンだからこそ皆様の要望に細かくお応えできます。<br />
+          女性は綺麗なくびれ、ヒップアップ。男性はたくましく。</p>
+          <p>マンツーマンだからこそ皆様の要望に細かくお応えできます。
           男性・女性、体重を増やしたい方・ダイエットしたい方も...目的は問いません。
-          是非私に、皆さんが輝くためのお手伝いをさせて下さい！<br />
-          一緒に一歩を踏み出しましょう！！<br /><br />
+          是非私に、皆さんが輝くためのお手伝いをさせて下さい！</p>
+          <p>一緒に一歩を踏み出しましょう！！</p>
           最新コンテスト出場結果<br />
           Summer Style Award 2020<br />
           Stylish Gyu Tall crass 1位<br />
-          Styilish Guy Overall 1位<br />
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          <p>Styilish Guy Overall 1位</p>
+          <a>料金表は以下の通りです。</a>
+          <span className="image main">
+            <img src={pic21} alt="" width="" height=""/>
+          </span>
+          その他、お客様に合った最適なプランを
+          <p>ご提案しますのでお気軽にご相談下さい。<p/>
           </p>
           {close}
         </article>
@@ -118,29 +115,40 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Private</h2>
-          <h3>RC GYMではプライベート利用の月額会員様を順次募集しております。</h3>
+          <h4>RC GYMではプライベート利用の月額会員様を順次募集しております。</h4>
           <span className="image main">
             <img src={pic07} alt="" />
           </span>
           <p>
             <h3>特徴</h3>
-            24時間利用可能・完全予約制<br />
-            1日1時間・1ヶ月 ¥11,000　ご友人、ご家族も同伴可<br /><br />
+            <p>
+              24時間利用可能・完全予約制<br />
+              1日1時間・1ヶ月 ¥11,000<br />
+              ご友人、ご家族も同伴可
+            </p>
             <h3>このような方にオススメです。</h3>
-            ・ジムのごちゃごちゃした雰囲気が苦手。待ち時間が勿体無いとお思いの方
-            RC GYMは完全事前予約制のプライベート空間です。<br />
-            その為周りの目も気にせず気軽に、そして待ち時間もなく効率よく<br />
-            トレーニングできます！<br /><br />
+            <p>
+              ジムのごちゃごちゃした雰囲気が苦手。<br />
+              待ち時間が勿体無いとお思いの方
+              RC GYMは完全事前予約制のプライベート空間です。
+              その為周りの目も気にせず気軽に、そして待ち時間もなく効率よく
+              トレーニングができます！
+            </p>
+            <span className="image main">
+              <img src={pic22} alt="" />
+            </span>
             <h3>お忙しい方の時短トレーニングに最適です。</h3>
-            ・ご友人・ご家族とトレーニングしたい方
-            お１人ではもちろん、<br />
-            友人・ご家族もご同伴でご利用いただけます。<br />
-            *追加料金はありませんが会員様が必ずご同伴ください。<br /><br />
-            ・パーソナルトレーニングと併用したい方<br />
-            専属のパーソナルトレーナーがいつでもご対応いたします。
-            単発¥5,500〜
-            中々成長が見られない。フォームを見て欲しい。種目を教えてほしい。など
-            お好きな時にお気軽にご相談ください。
+            <p>ご友人・ご家族とトレーニングしたい方
+            お１人ではもちろん、
+            友人・ご家族も同伴でご利用いただけます。<br />
+            *追加料金はありませんが、会員様が必ず同伴してください。
+            </p>
+            <h3>パーソナルトレーニングと併用したい方</h3>
+            <p>専属のパーソナルトレーナーがいつでもご対応いたします。
+              単発¥5,500〜<br />
+              中々成長が見られない。フォームを見て欲しい。種目を教えてほしい。など
+              お好きな時にお気軽にご相談ください。
+            </p>
           </p>
           {close}
         </article>
