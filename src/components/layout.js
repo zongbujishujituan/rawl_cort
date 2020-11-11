@@ -41,9 +41,9 @@ const Layout = ({ children, location }) => {
           <Helmet
             title="RAWL CORT GYM"
             meta={[
-              { name: 'keywords', content: 'RAWL CORT, RAWL CORT GYM, RCGYM, 越谷, 川口, 草加, 春日部,パーソナルトレーニング, パーソナルジム, レンタルジム, レンタルルーム, ' },
+              { name: 'keywords', content: 'RAWL CORT, RCGYM, パーソナルトレーニング, パーソナルジム, レンタルジム' },
               
-              { name: 'descriptio', content: 'RAWL CORT GYM 公式HP'}
+              { name: 'description', content: 'RCGYMウェブサイトへようこそ。このサイトはRCGYMのオフィシャルサイトです。'}
             ]}
           >
           
