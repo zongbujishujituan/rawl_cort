@@ -45,7 +45,7 @@ class Main extends React.Component {
           </span>
           <p>
            様々な方にボディーメイクを楽しんで頂きたい!<br />
-           そんな気持ちから埼玉では珍しいレンタルスペース<a>RC GYM</a>がNew open!!<br />
+           そんな気持ちから埼玉では珍しいレンタルスペース<strong>RC GYM</strong>がNew open!!<br />
            ・パーソナルトレーニング１〜３ヶ月コース<br />
            ・コンテスト出場コース/単発コース<br />
            ・ジムスペース月利用 １ヶ月 ¥11,000〜<br /><br />
@@ -85,8 +85,8 @@ class Main extends React.Component {
           ボディーメイクを始め、冬(バルクアップ期間)は80kg超。夏(減量期間)は60kg後半〜70kg
           といったように食事や運動を組み合わせ無理なく、体重・体型をコントロール
           できるようになりました。</p>
-          <p>2020年に開催された身体の美しさを競うコンテスト<a>SMMER STYLE AWARD 2020</a>では
-          <a>オーバーオールを含め二冠</a>を勝ち取ることができました。
+          <p>2020年に開催された身体の美しさを競うコンテスト<strong>SMMER STYLE AWARD 2020</strong>では
+          <b>オーバーオールを含め二冠</b>を勝ち取ることができました。
           ただ痩せるだけではなくしっかりと筋肉を残しつつ
           女性は綺麗なくびれ、ヒップアップ。男性はたくましく。</p>
           <p>マンツーマンだからこそ皆様の要望に細かくお応えできます。
@@ -97,7 +97,7 @@ class Main extends React.Component {
           Summer Style Award 2020<br />
           Stylish Gyu Tall crass 1位<br />
           <p>Styilish Guy Overall 1位</p>
-          <a>料金表は以下の通りです。</a>
+          <u>料金表は以下の通りです。</u>
           <span className="image main">
             <img src={pic21} alt="" width="" height=""/>
           </span>
