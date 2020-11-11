@@ -208,6 +208,7 @@ class Main extends React.Component {
               </a>
             </li>
             <span className="image main">
+              <h4>〒343-0808 埼玉県越谷市赤山本町3-21</h4>
               <img src={pic111} alt=""  width="" height=""/></span>
               当店の店舗は完全予約制になっておりますので、
               入会や見学、相談につきましてもご予約が必要です。
