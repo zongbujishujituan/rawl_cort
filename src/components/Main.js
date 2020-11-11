@@ -43,20 +43,20 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic15} alt="" />
           </span>
-          <p>
-           様々な方にボディーメイクを楽しんで頂きたい!<br />
-           そんな気持ちから埼玉では珍しいレンタルスペース<strong>RC GYM</strong>がNew open!!<br />
-           ・パーソナルトレーニング１〜３ヶ月コース<br />
-           ・コンテスト出場コース/単発コース<br />
-           ・ジムスペース月利用 １ヶ月 ¥11,000〜<br /><br />
-           <figure class="gazo-box"></figure>
+        <p>
+            様々な方にボディーメイクを楽しんで頂きたい!
+            <p>そんな気持ちから埼玉では珍しいレンタルスペース<strong>RC GYM</strong>が<b>New open!!</b></p>
+            <li>パーソナルトレーニング１〜３ヶ月コース</li>
+            <li>コンテスト出場コース/単発コース</li>
+            <li>ジムスペース月利用 １ヶ月 ¥11,000〜</li>
+            <figure class="gazo-box"></figure>
             <span className="image main">
               <img src={pic19} alt="" width="" height=""/>
-              <img src={pic20} alt="" width="" height=""/><br /><br />
+              <img src={pic20} alt="" width="" height=""/>
             </span>
-           個人利用・フリーのトレーナーさんの指導場所利用も可能。<br />
-           他にも様々なプランがございます。<br />
-           お客様に最適なプランを提案いたしますので是非お気軽にご相談下さい。<br /><br />
+           個人利用・フリーのトレーナーさんの指導場所利用も可能。
+           <p>他にも様々なプランがございます。</p>
+           お客様に最適なプランを提案いたしますので是非お気軽にご相談下さい。
            RC GYMオリジナルブランド<a href="https://rawlcort.fashionstore.jp/l">RAWL CORT</a>もECサイトにて販売しております。</p>  
           <p>
             
@@ -202,14 +202,7 @@ class Main extends React.Component {
                 <span className="label">Instagram</span>
               </a>
             </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
+            <p></p>
           </ul>
           {close}
         </article>
