@@ -12,7 +12,7 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1><font size="7">RAWL CORT GYM</font></h1>
+        <h1><font size="7">RC GYM</font></h1>
           <h2>2020/11/1~ released</h2>
             <h3>完全プライベートジムを自分だけの空間に</h3><br />
               <h4>マンツーマン個別トレーニング(1h ¥5,500~)</h4>
