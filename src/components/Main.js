@@ -13,6 +13,7 @@ import pic19 from '../images/pic19.jpg'
 import pic20 from '../images/pic20.jpg'
 import pic21 from '../images/pic21.jpg'
 import pic22 from '../images/pic22.jpg'
+import pic111 from '../images/pic111.jpg'
 
 class Main extends React.Component {
   render() {
@@ -206,7 +207,12 @@ class Main extends React.Component {
                 <span className="label">Instagram</span>
               </a>
             </li>
-            <p></p>
+            <span className="image main">
+              <img src={pic111} alt=""  width="" height=""/></span>
+              当店の店舗は完全予約制になっておりますので、
+              入会や見学、相談につきましてもご予約が必要です。
+              急なご来店はセッション中や不在でご対応出来ませんので、
+              必ず事前にお問い合わせ下さい。
           </ul>
           {close}
         </article>
