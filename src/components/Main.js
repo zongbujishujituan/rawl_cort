@@ -51,8 +51,8 @@ class Main extends React.Component {
            ・ジムスペース月利用 １ヶ月 ¥11,000〜<br /><br />
            <figure class="gazo-box"></figure>
             <span className="image main">
-              <img src={pic19} alt="" width="560" height=""/>
-              <img src={pic20} alt="" width="560" height=""/><br /><br />
+              <img src={pic19} alt="" width="" height=""/>
+              <img src={pic20} alt="" width="" height=""/><br /><br />
             </span>
            個人利用・フリーのトレーナーさんの指導場所利用も可能。<br />
            他にも様々なプランがございます。<br />
