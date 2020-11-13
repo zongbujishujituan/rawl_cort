@@ -43,7 +43,9 @@ const Layout = ({ children, location }) => {
             meta={[
               { name: 'keywords', content: 'RAWL CORT, RCGYM, パーソナルトレーニング, パーソナルジム, レンタルジム' },
               
-              { name: 'description', content: 'RCGYMウェブサイトへようこそ。このサイトはRCGYMのオフィシャルサイトです。'}
+              { name: 'description', content: 'RCGYMウェブサイトへようこそ。このサイトはRCGYMのオフィシャルサイトです。'},
+
+              { name: 'google-site-verification', content: 'AUmHom5BG3p0d5t81IYU1kMlhOb2dGBfwQXHRFCi8cU'}
             ]}
           >
           
