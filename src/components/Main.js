@@ -79,9 +79,10 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic18} alt="" width="" height=""/>
           </span> 
-          <p>
-          プロフィール</p>
-          <p>ベタンコールト 光　日本とチリのハーフ</p>
+          <p></p>
+          <h3>プロフィール</h3>
+          <p>ベタンコールト 光　<br />
+            日本とチリのハーフ</p>
           <p>私はトレーニングを始めるまで178cmと比較的高身長ながら、52kgしかない、
           かなりの痩せ型でした。</p>
           <p>洋服をかっこよく着こなしたい、そんな気持ちから
